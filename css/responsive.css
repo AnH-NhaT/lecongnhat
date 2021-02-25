@@ -192,5 +192,13 @@ text-decoration-line: none;
     padding: 15px;
     float: none;
   }
+}
+
+
   
+  }
+  @media screen and (max-width:630px){
+    #tableee{
+      display: none;
+    }
   }
