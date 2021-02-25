@@ -1,0 +1,200 @@
+
+
+/* min là bên ngoài */
+/* max là bên trong */
+
+
+@media only screen and (max-width:1200px){
+    .r1trai{
+        text-align: center;
+      }
+      .r1phai{
+        text-align: left;
+        
+      }
+      .shopping-item {
+        text-align: center;
+      }
+
+      .r2trai {
+        text-align: center;
+        
+      }
+      .late{
+        font-size: 70px;
+      }
+      .popu{
+        font-size: 70px;
+      }
+      .shopping-item {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+    .menu{
+      margin-bottom: 36px;
+    }
+    .latest{
+      margin-top: 0px;
+    }
+    .popular{
+      margin-top: 36px;
+    }
+
+}
+
+@media only screen and (max-width:992px){
+    .r1trai{
+        text-align: center;
+      }
+      .r1phai{
+        text-align: center;
+        
+      }
+      .r2trai {
+        text-align: center;
+      }
+      .late{
+        font-size: 50px;
+      }
+      .popu{
+        font-size: 50px;
+      }
+
+}
+
+
+@media only screen and (min-width:1201px){
+
+    .late{
+      font-size: 100px;
+    }
+    .popu{
+      font-size: 100px;
+    }
+    .shopping-item {
+      margin-top: 36px;
+  }
+  .timkiem {
+    margin-top: 33px;
+  }
+
+  .latest{
+    margin-top: 0px;
+  }
+  .popular{
+    margin-top: 36px;
+  }
+  
+}
+
+@media only screen and (max-width:410px){
+
+  .late{
+    font-size: 20px;
+  }
+  .popu{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width:250px){
+.r2trai img{
+  width: 226px;
+  height: 130px;
+  padding: 15px;
+}
+
+.sanpham a{
+  /* canh giua cac div */
+  margin: 0 auto;
+  display: block;
+  border: 1px solid rgb(216, 216, 216);
+  width: 270px;
+  height: 320px;
+  text-align: center;
+  font-size: 17px;
+  text-decoration-line: none;
+  color: #000;
+  margin-top: 36px;
+}
+.sanpham ins{
+  font-weight: bold;
+  color: blue;
+}
+.sanpham a:hover{
+  color: orange;
+  border: blue solid 2px;
+}
+
+
+
+
+.sanphamfull a{
+  /* canh giua cac div */
+  margin: 0 auto;
+  display: block;
+  /* border: 1px solid rgb(216, 216, 216); */
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 17px;
+  text-decoration-line: none;
+  color: #000;
+  margin-top: 36px;
+}
+.sanphamfull ins{
+  font-weight: bold;
+  color: blue;
+}
+.sanphamfull a:hover{
+border-top: #5a88ca solid 1px;
+text-decoration-line: none;
+}
+.sanphamfull p:hover{
+  color: orange;
+}
+.sanphamfull span{
+  color: white;
+  background-color:#5a88ca;
+  display: block;
+  height: 30px;
+}
+.sanphamfull span:hover{
+  background-color: #000
+}
+
+
+.hangsanpham {
+  margin-top: 36px;
+  margin-left: 20px;
+}
+.hangsanpham .container{
+  border-top: blue solid 3px;
+  border-bottom: blue solid 3px;
+}
+.hangsanpham a{
+  display: block;
+  text-align: center;
+}
+.hangsanpham a:hover{
+  border-left: orange solid 3px;
+  border-right: orange solid 3px;
+
+}
+
+}
+
+@media screen and (max-width:249px){
+  .r2trai img{
+    width: 130px;
+    height: 70px;
+    padding: 15px;
+    float: none;
+  }
+}
+  @media screen and (max-width:630px){
+    #tableee{
+      display: none;
+    }
+  }
