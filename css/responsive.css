@@ -194,10 +194,7 @@ text-decoration-line: none;
   }
 }
 
-
-  
-  }
-  @media screen and (max-width:630px){
+ @media screen and (max-width:630px){
     #tableee{
       display: none;
     }
